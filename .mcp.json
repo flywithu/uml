@@ -4,6 +4,11 @@
       "type": "http",
       "url": "https://phone2.flywithu.com/mcp",
       "headers": { "Authorization": "Bearer ${PHONE2_TOKEN}" }
+    },
+    "phone": {
+      "type": "http",
+      "url": "https://phone.flywithu.com/mcp",
+      "headers": { "Authorization": "Bearer ${PHONE2_TOKEN}" }
     }
   }
 }
